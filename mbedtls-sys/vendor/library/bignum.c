@@ -1443,8 +1443,6 @@ void mpi_mul_hlp( size_t i,
     }
 #endif /* MULADDC_HUIT */
 
-    t++;
-
     while( c != 0 )
     {
         *d += c; c = ( *d < c ); d++;
